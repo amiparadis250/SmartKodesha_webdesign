@@ -1,0 +1,168 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+     */
+body{
+    background-color: aqua;
+}
+.header-product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-product a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+}
+.header-product a:hover{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.topdetails{
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 30px;
+    border-radius: 25px;
+    padding: 10px;
+    top: 5px;
+    background-color: blue;
+}
+.topdetails input{
+    flex: 1;
+    border: 0px;
+    outline: 0px;
+    background-color: blue;
+    padding: 15px;
+
+    
+}
+.right .photo{
+    margin-left: 1;
+}
+.topdetails i{
+    margin-top: 8px;
+    margin-right: 6px;
+    color: blue;
+
+}
+.topdetails input::placeholder{
+    color:black;
+    letter-spacing: 0.5px;
+}
+.information p strong{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+/* Trying to style product images and Full of details*/
+.productdetails{
+    display: flex;
+    margin: 20px;
+    margin-top: 20px;
+}
+.left-contactLandlord{
+width: 60vw
+}
+.right{
+width: 40vw;
+
+}
+.productInfo i{
+    color: blue;
+}
+/* nnnn */
+
+.left-contactLandlord {
+    margin-right: -40px;
+    max-width: 400px;
+    margin: 5px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 2px solid aqua; /* Border color */
+}
+.left-contactLandlord form{
+   height: 100%;
+}
+.left-contactLandlord label{
+    color: black;
+    font-weight: bold;
+}
+.descrption i{
+    color: blue;
+    margin-left: 5px;
+}
+.descrption p{
+    margin-left: 7px;
+    font-size: 18px;
+    margin: 3px;
+}
+.information p{
+    font-size: 18px;
+    margin: 7px;
+}
+
+.left-contactLandlord form {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-contactLandlord legend {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:aqua; /* Legend color */
+}
+
+.left-contactLandlord label {
+    margin-bottom: 8px;
+    color: #333; /* Label color */
+}
+
+.left-contactLandlord input {
+    padding: 8px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+     border: 1px solid aqua;
+     outline: 1px solid aqua;
+}
+
+.left-contactLandlord input[type="date"] {
+    
+}
+
+.left-contactLandlord span {
+    color: #3498db;
+}
+.left-contactLandlord textarea{
+    width: 350px;
+    height: 100px;
+    border: 1px solid aqua;
+    outline: 1px solid aqua;
+    
+}
+.left-contactLandlord button{
+    margin-top: 10px;
+    background-color:aqua;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    border-radius: 30px;
+    padding: 10px;
+}
+.left-contactLandlord button:hover{
+   background-color: blue
+
+}
+.right .information{
+    margin-right: 20px;
+
+}
