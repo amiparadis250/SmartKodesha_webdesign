@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:aqua ;
+}
+.Login-header{
+   
+    display: flex;
+    margin: 10px;
+    
+    
+}
+.Login-header a{
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+.Login-header a:hover{
+    background-color:blue;
+    color: white;
+   padding: 20px;
+}
+.login-container{
+   
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    justify-content: center;
+
+}
+.left{
+ width: 50vw;
+ 
+}
+.right{
+top: px;
+width: 50vw;
+background-color:red;
+height:84vh;
+margin-right: -60px;
+background-image: url(gifImage/akagifukurisite.jpg);
+background-size: contain;
+background-repeat: repeat;
+}
+/* nnnnnn */
+/* Add this CSS code to style the "left" class */
+.left {
+    width: 40vw; /* Adjust the width as needed */
+    padding: 20px;
+    background-color:aqua; /* Set background color */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+.login-form{
+    position: relative;
+    top: -36px;
+    margin-top: 25px;
+    border: 1px solid blue;
+    padding: 50px;
+    margin-right: 20px;
+}
+
+.left h3 {
+    color: #333;
+    font-size: 20px;
+    color: blue;
+    margin-bottom: 5px;
+}
+
+.left h5 {
+    color: black; /* Set the color for the subheading */
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: lighter;
+}
+
+.left p {
+    margin-bottom: 15px;
+}
+
+.left  #cd- {
+    width: 93%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+#checkebox-remember{
+    padding: 30px;
+}
+
+.left .login-form button {
+    background-color:blue; /* Set button background color */
+    color: white; /* Set button text color */
+    padding:10px 190px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    outline: 1px solid blue;
+    
+}
+
+.left button:hover {
+    background-color: #45a049; /* Change button background color on hover */
+}
+#login-withgoogle button:hover{
+    background-color: #45a049;
+}

@@ -1,0 +1,727 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+
+
+
+}
+
+.header {
+    width: 96vw;
+    height: 5vw;
+    margin: 3px;
+    margin-left: 10px;
+    text-align: center;
+    position: static;
+
+
+
+}
+
+.hagati {
+    display: flex;
+    flex-direction: row;
+    width:96vw;
+
+
+}
+
+.aside {
+    width: 32vw;
+    height: 60vh;
+
+    margin: 3px;
+    margin-left: 20px;
+    text-align: center;
+
+}
+
+.article {
+    width: 50vw;
+    height: 60vh;
+    margin: 3px;
+    margin-left: 80px;
+    text-align: center;
+    padding: 70px;
+    background-image: url(gifImage/otherthing.jpg);
+    background-size: contain;
+
+    
+
+}
+
+.footer {
+    display: flex;
+    width: 96vw;
+    height: 25vh;
+    position: relative;
+    bottom: 0px;
+    margin-bottom: 0px;
+    margin: 10px;
+    text-align: center;
+    margin-top: 1px;
+}
+
+#logo {
+    opacity: 1;
+    float: left;
+    width:200px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 25px;
+    
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+        background-color: black;
+    }
+    100%{
+        transform: rotate(360deg);
+        background-color: black;
+    }
+}
+
+.links {
+
+    margin-top: 5px;
+    width: 50%;
+    height: 2vh;
+    float: right;
+    padding: 15px;
+
+}
+
+.links a {
+    padding: 3px;
+    text-decoration: none;
+    color: blue;
+
+}
+
+.links a:link {
+    
+    font-weight: bold;
+    font-style: italic;
+}
+.content a{
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover {
+
+    text-transform: capitalize;
+    background-color: aqua;
+    font-size: bold;
+    cursor: crosshair;
+}
+
+.mini {
+    width: 50vw;
+    height: 3vh;
+    align-items: center;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.mini a {
+    color: blue;
+    text-decoration: none;
+    font-style: italic;
+    padding: 3px;
+    margin: 3px;
+}
+
+.mini a:hover {
+    background-color: cyan;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+.mini a:active {
+    color: blue;
+}
+
+.aside span {
+    color: cyan;
+
+}
+
+.aside p:nth-child(1) {
+
+    padding: 50px;
+    font-size: 24px;
+    margin-bottom: -30px;
+}
+
+.aside p:nth-child(2) {
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.spa1 {
+
+    font-size: 20px;
+    color: cyan;
+}
+
+#button2 {
+    color: cyan;
+    size: 30px;
+    font-weight: bolder;
+    border: none;
+}
+
+#button2:hover {
+    color: blue;
+}
+
+#butt1 {
+    margin-top: 12px;
+    padding: 15px;
+    background-color: cyan;
+    color: white;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+#butt1:hover {
+    padding: 18px;
+}
+
+.footer1 {
+    display: flex;
+
+}
+
+.search1 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 25vh;
+    padding: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: cyan;
+}
+
+.search1 input {
+    padding: 8px;
+    border: 1px solid cyan;
+    width: 260px;
+    margin-right: 7px;
+}
+
+.search1 select {
+    padding: 8px;
+    border: 1px solid cyan;
+    margin-right: 7px;
+    width: 170px;
+}
+
+.search1 button {
+    padding: 8px;
+    width: 100px;
+    background-color: blue;
+    border: 1px solid cyan;
+    margin-right: 7px;
+    width: 170px;
+}
+
+/* .products {
+    height: 100vh;
+    
+    position: relative;
+} */
+
+.products h4 {
+    text-align: center;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 24px;
+    font-stretch: expanded;
+    color: blue;
+}
+
+.beforep {
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    width: 100vw;
+    height: 5vh;
+
+}
+
+.lighttext {
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 12px;
+    margin-left: 5px;
+    font-style: italic;
+}
+
+.right {
+    padding: 3px;
+    margin: 10px
+}
+
+.right button {
+    width: 160px;
+    height: 30px;
+    background-color: cyan;
+}
+
+.right button:hover {
+    background-color: blue;
+}
+
+.right button:nth-child(1) {
+    background-color: blue;
+}
+
+.box-container {
+    width: 120vw;
+    height: 88vh;
+    background-color: aqua;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+
+    margin: 15px;
+    width: 20%;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 10px;
+    background-color:aqua;
+    border: 0px solid darkcyan;
+    box-shadow:  0 14px 28px rgba(0, 0, 0, 0.25) 0 10px 10px rgba(0, 0, 0, 0.25);
+
+}
+.content:hover{
+    transform: scale(1.025);
+}
+
+.content img {
+    position: relative;
+    top: -10;
+    padding-top: 0px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.content ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+.content p{
+    text-align: center;
+    padding-top: 10px;
+    color: blue;
+}
+.content h3{
+    padding-top: 15px;
+    color: white;
+
+}
+.fa{
+    font-size: 26px;
+    margin: 10px;
+}
+.checked{
+    color: blue;
+}
+.content button{
+    width: 80px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: blue;
+    border:1px solid black;
+    border-radius: 20px;
+}
+.content button:hover{
+    background-color: green;
+    height:40px ;
+}
+.content h6{
+    font-size: 15px;
+    margin: 10px; ;
+}
+#tqs{
+    color: black;
+    font-size: 24px;
+    font-weight: bolder;
+}
+/* .rev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72vw;
+    margin: 10px;
+    border-radius:30px ;
+    margin-left: 100px;
+    margin-right: 40px;
+    border: 1px solid black;
+   background-color:aqua;
+   
+}
+.photo{
+    
+    width: 10vw;
+    height: 100px;
+    background-image: url(images/comment.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+
+}
+
+.photo1{
+    
+    width: 60vw;
+    height: 100px;
+    padding: 35px;
+    margin-left:-25px ;
+}
+#g{
+    list-style: none;
+    display: flex;
+} */
+#.Testmonial{
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 40px;
+}
+.reviews h2{
+    margin-top: 50px;
+    font-size: 24px;
+    color: aqua;
+    text-align: center;
+}
+.box{
+ width: 600px;
+ height: 50px;
+ background-color:aqua;
+ border-radius: 30px;
+ display: flex;
+align-items: center;
+padding: 20px;
+border: 1px solid black;
+justify-content: center;
+margin-left: 300px;
+margin-top: 10px;
+margin-bottom: 15px;
+
+}
+.box input{
+    flex:1;
+    height: 40px;
+    border: 0px;
+    outline: 0px;
+    font-size: 18px;
+    color: black;
+    padding-left: 10px;
+    background-color: aqua;
+}
+.box input::placeholder {
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+.box i{
+    color: blue;
+}
+.container-reviews{
+    display: flex;
+    flex-wrap:wrap;
+}
+.user-reviews{
+ display: flex;
+ flex-direction: row;
+ width: 200px;
+
+ background-color:aqua;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 10px;
+ border-radius: 30px;
+}
+.user-reviews:hover{
+    transform: scale(1.045);
+}
+.profile-identificatio{
+    width:200px;
+    margin-left: 20px;
+    
+}
+.profile-identification img{
+    width: 120px;
+    border-radius: 50px;
+    padding: 10px;
+   
+
+}
+.info ul{
+    display: flex;
+    list-style: none;
+}
+.info{
+width: 500px;
+margin-left: -35px;
+padding: 30px;
+
+
+}
+.swiper-pagination {
+    position: relative;
+    margin-top: 20px;
+    bottom: auto;
+}
+.swiper-pagination-bullet{
+    height: 12px;
+    width: 12px;
+    margin-left: -10px;
+}
+/* Adding Frequently Asked Question */
+#FAQ-title {
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: aqua;
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+#accordion {
+    margin: 80px auto;
+    width: 80vw;
+    margin-bottom: 0px;
+}
+
+#accordion li {
+    list-style-type: none;
+    width: 100%;
+    margin-top: 10px;
+    background-color: blue;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#accordion li label {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: honeydew;
+}
+
+#accordion li label span {
+    transform: rotate(90deg);
+    color: aqua;
+    font-size: 18px;
+}
+
+#accordion li label + input[type="radio"] {
+    display: none;
+}
+
+#accordion .answer {
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s; /* Add 's' for seconds */
+    padding: 0 10px;
+}
+
+#accordion li label + input[type="radio"]:checked + .answer {
+    max-height: 400px; /* Adjust the value as needed */
+}
+/* Codes for footer goes here  */
+.container-footer{
+    display: flex;
+    width: vw;
+    margin-left: 40px;
+    background-color: aqua;
+    justify-content: space-around;
+    padding: 10px;
+    position:static;
+    margin-top: 0px;
+    
+
+}
+.container-footer .company img{
+    width: 120px;
+}
+.followus #social{
+    color: darkcyan;
+    font-size: 28px;
+    margin: 1px;
+
+}
+.followus #social:hover{
+    font-size: 20px;
+    color: blue;
+}
+
+.userful-links p a{
+    text-decoration: none;
+    color:darkcyan;
+    margin: 2px;
+
+}
+.userful-links a:hover{
+    color:blue;
+}
+.contact p{
+
+    margin: 1px;
+    padding: 1px;
+}
+.company{
+    padding: 20px;
+    color: darkcyan;
+}
+.followus{
+    padding: 20px;
+    color: darkcyan;
+}
+.container-footer h4{
+    color:blue;
+    margin-top: 4px;
+    padding-top: 4px;
+}
+.fa-quote-left{
+    color: blue;
+    margin-right: 4px;
+}
+.info p:first-child{
+    color: blue;
+    font-style: italic;
+}
+
+Add a media query for responsiveness
+@media screen and (max-width: 768px) {
+    .container {
+        height: auto; /* Adjust height for smaller screens */
+    }
+
+    .header {
+        width: 100%; /* Make header full width */
+        height: auto; /* Adjust height for smaller screens */
+        text-align: center;
+    }
+
+    .hagati {
+        flex-direction: column; /* Stack elements vertically */
+    }
+
+    .aside,
+    .article {
+        width: 100%; /* Make sidebar and article full width */
+        margin: 5px; /* Add some margin for better spacing */
+    }
+
+    .footer {
+        flex-direction: column; /* Stack elements vertically */
+        height: auto; /* Adjust height for smaller screens */
+    }
+
+    .links {
+        width: 100%; /* Make links full width */
+        float: none; /* Remove float */
+    }
+
+    /* Add more responsive adjustments as needed */
+
+    .box-container {
+        width: 100%; /* Make box-container full width */
+    }
+
+    .content {
+        width: 100%; /* Make content full width */
+        margin: 10px; /* Add some margin for better spacing */
+    }
+
+    /* Add responsiveness to other sections as needed */
+}
+
+/* Keep your existing styles below the media query */
+/* Add a media query for responsiveness on smaller iPhones */
+@media screen and (max-width: 375px) {
+    .container {
+        height: auto;  /* Adjust styles for even smaller screens if necessary */
+    }
+
+    .header {
+        /* Adjust header styles for smaller screens */
+    }
+
+    .hagati {
+        display: none;
+        /* Further adjustments for smaller screens if needed */
+    }
+
+    .aside,
+    .article {
+        /* Further adjustments for smaller screens if needed */
+    }
+
+    .footer {
+        /* Further adjustments for smaller screens if needed */
+    }
+
+    .links {
+        /* Further adjustments for smaller screens if needed */
+    }
+
+    /* Add more specific adjustments for small iPhones as needed */
+
+    .box-container {
+        /* Further adjustments for smaller screens if needed */
+    }
+
+    .content {
+        /* Further adjustments for smaller screens if needed */
+    }
+    .reviews{
+        flex-direction: column;
+    }
+        .swiper-container {
+            display: none;
+    }
+    .container-footer{
+        flex-direction: column;
+    /* Add responsiveness to other sections for small iPhones as needed */
+}
+
+
+/* Keep your existing styles below the media queries
